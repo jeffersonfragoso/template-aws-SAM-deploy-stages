@@ -29,7 +29,7 @@ runs:
       with:
         aws-access-key-id: ${{ inputs.aws-access-key-id }}
         aws-secret-access-key: ${{ inputs.aws-secret-access-key }}
-        aws-region: eu-west-1
+        aws-region: us-east-1
         role-to-assume: ${{ inputs.pipeline-role }}
         role-duration-seconds: 900
         role-session-name: AssumedPipelineRole
